@@ -279,7 +279,7 @@ body {
       left: 32%;
     }
     .offcanvas {
-      height: 85vh;
+      height: 70vh;
     }
 
     .dicas{
