@@ -213,6 +213,7 @@ body {
   -webkit-text-fill-color: transparent;
   font-size: 1.5rem;
   height: 100%;
+  padding-bottom: 10px;
 }
 
 .icon-topo {
@@ -278,7 +279,7 @@ body {
       left: 32%;
     }
     .offcanvas {
-      height: 70vh;
+      height: 85vh;
     }
 
     .dicas{
