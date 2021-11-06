@@ -42,8 +42,9 @@ methods: {
             });
         }else {
 
-            swal ( "Confirme apenas o seu nome ou digite cada membro que comparecerá separado por virgulas."+
-            "isso só poderá ser feito uma vez, deseja confirmar ? lembrando que pode confirmar até 01/03/2022" , { 
+            swal (  "Confirme seu nome e o de cada membro que irá comparecer. Isso deve ser feito apenas uma única vez.\n"+
+                    "Digite cada nome separado apenas por vírgulas. Exemplo: Gabriel, Dalila\n"+
+                    "Deseja confirmar? Lembrando que você deverá confirmar até 01/03/2022." , { 
             buttons: {
                 cancel: "Cancelar",
                 Confimar: true,

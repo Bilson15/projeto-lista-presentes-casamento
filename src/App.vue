@@ -8,7 +8,7 @@
     <div class="offcanvas-body small" id="canvas">
       <p class="dicas">
         <b>Seja Bem-vindo(a)</b><br>
-        <b>Dica de confirmação:</b> confirmar sua presença, basta clicar no menu a cima e clicar em confimar sua presença, você irá direto para o campo de confirmação.
+        <b>Dica de confirmação:</b> confirmar sua presença, basta clicar no menu acima e clicar em confirmar sua presença, você irá direto para o campo de confirmação.
         basta digitar os nomes e confirmar, lembrando que só pode confirmar uma vez<br>
       </p>
       <p class="dicas">
