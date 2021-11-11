@@ -97,7 +97,7 @@
     <div class="foooter">
       <FooterConfirm />
     </div>
-    <p class="dev">Developed by Bilson</p>
+      <a href="https://github.com/Bilson15" target="_blank" class="dev">Developed by Bilson</a>
   </div>
    
 </template>
@@ -181,7 +181,7 @@ export default {
 body {
   text-align: center;
   margin-top: 15px;
-  margin-bottom: 15px;
+
 }
 
 .main {
@@ -221,7 +221,7 @@ body {
   width: 50px;
   height: 50px;
   right: 30px;
-  bottom: 35px;
+  bottom: 50px;
   border-radius: 25px;
   z-index: 1;
   display: none;
@@ -229,10 +229,12 @@ body {
   cursor: pointer;
 }
 .dev {
-  position: absolute;
+  display: flex;
   font-family: 'Open Sans', sans-serif;
-  left: 43%;
-  font-size: 0.8em;
+  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+  font-size: 1em;
 }
 
 .card-presente{
@@ -268,20 +270,16 @@ body {
 @media(max-width: 500px){
     .icon-topo {
       right: 5px;
-      bottom: 20px;
+      bottom: 50px;
       width: 40px;
       height: 40px;
     }
     .categoria {
       width: 90vw;
     }
-    .dev {
-      left: 32%;
-    }
     .offcanvas {
       height: 70vh;
     }
-
     .dicas{
       width: 90%;
     }
