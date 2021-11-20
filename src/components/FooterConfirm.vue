@@ -64,7 +64,7 @@ methods: {
                 break;
             
                 case "cancel":
-                    console.log('canelei');
+                    console.log('cancelei');
                 break;
             
                 default:
@@ -100,7 +100,8 @@ methods: {
         width: 500px;
     }
     .btn {
-        background-color: #ff6f9c;
+        background-color: var(--bg-rosa-padrao);
+        color: var(--bg-fonte);
     }
 
     input:active, input:focus {

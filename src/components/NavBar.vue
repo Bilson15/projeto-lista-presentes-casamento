@@ -1,5 +1,5 @@
 <template>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark">
   
   <div class="container-fluid">
     <a v-on:click="navs" class="navbar-brand" href="#">Seja Bem-vindo(a)</a>
@@ -18,11 +18,12 @@
           <a v-on:click="dropdown" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Categorias
           </a>
-          <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+          <ul class="dropdown-menu dropmenu" aria-labelledby="navbarDropdown">
             <li><a v-on:click="navs" class="dropdown-item" href="#cozinha">Cozinha</a></li>
             <li><a v-on:click="navs" class="dropdown-item" href="#salaquarto">Sala e quarto</a></li>
             <li><a v-on:click="navs" class="dropdown-item" href="#banheiro">Banheiro</a></li>
             <li><a v-on:click="navs" class="dropdown-item" href="#utensilios">Utensílios Domésticos</a></li>
+            <li><a v-on:click="navs" class="dropdown-item" href="#premium">Premium</a></li>
           </ul>
         </li>
       </ul>
@@ -53,8 +54,14 @@ export default({
 </script>
 
 <style scoped>
+
+  .navbar{
+    background: var(--bg-dark);
+  }
+
+
   .container-fluid {
-    background-image: #ff6f9c;
+    background-image: var(--bg-dark);
   }
 
   .navv{
@@ -64,10 +71,13 @@ export default({
   }
 
   a {
-    color: white;
+    color: #ffffff;
+  }
+  .dropmenu{
+    background: var(--bg-dark);
   }
 
-  .dropdown-menu > li > a:hover{
-      background-color: #ff6f9c;
+  a:hover{
+      background-color: var(--bg-dark);
   }
 </style>

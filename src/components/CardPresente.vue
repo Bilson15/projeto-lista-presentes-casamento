@@ -4,7 +4,7 @@
         <h5 class="card-title">{{presente}}</h5>
     </div>
     <div>
-        <a href="#" class="btnn" v-on:click="escolhido"><img class="icon-presente" src="../assets/gift.svg" alt="Quero presentear com esse!"></a>
+        <a class="btnn" v-on:click="escolhido"><img class="icon-presente" src="../assets/gift.svg" alt="Quero presentear com esse!"></a>
     </div>
     </div>
 </template>
@@ -24,7 +24,7 @@ export default {
         escolhido: function() {
          let jsonPresente = JSON.parse(localStorage.getItem('presenteApp'));
             if(jsonPresente) {
-                swal (`Você já escolheu o presente ${jsonPresente.nome}, deseja trocar ?`, { 
+                swal (`Você já escolheu o presente "${jsonPresente.nome}", deseja trocar ?`, { 
                 buttons: {
                     cancel: "Cancelar",
                     Confimar: true,
@@ -45,7 +45,7 @@ export default {
                 }
                 });  
             }else {
-                swal ( "Boa escolha! posso registrar ?", { 
+                swal ( `${this.palavraMagica()} posso registrar ?`, { 
                 buttons: {
                     cancel: "Cancelar",
                     Confimar: true,
@@ -73,6 +73,11 @@ export default {
             }
 
 
+        },
+
+        palavraMagica() {
+            var palavras = ['Arassou!','Boa escolha! ', 'Aí simmm!', 'Escolha top!!','Boaaaa!!'];
+            return palavras[Math.floor(Math.random() * palavras.length)];
         },
         updated() {
             fetch("https://6143926cc5b553001717d00e.mockapi.io/produto/" + this.idp, {
@@ -113,12 +118,13 @@ export default {
 <style scoped>
     .card {
         display: flex;
-        border: 1px solid #ff6f9c;
+        border: 1px solid var(--bg-rosa-padrao);
         border-radius: 15px;
         margin: 15px;
         width: 500px;
         height: 70px;
-        background-image: linear-gradient(to bottom, #ffcbdb,#f9d2de, #f3d8e1,  #eddfe3, #e7e5e6, #e0ece9, #d8f2ec);
+        color: var(--bg-fonte);
+        background-image: var(--bg-card);
         flex-direction: row;
         justify-content: space-around;
         justify-items: center;
@@ -127,7 +133,7 @@ export default {
     }
     .btnn {
         display: flex;
-        background: #ff6f9c;
+        background: var(--bg-rosa-padrao);
         text-decoration: none;
         color: white;
         height: 70px;
