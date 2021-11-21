@@ -148,6 +148,7 @@ export default {
 
     .card-title {
         font-size: 1em;
+        margin: 0;
     }
 
     img {
