@@ -66,7 +66,7 @@ export default {
         bgTitle: "white",
         bgFonte: "white",
         bgBotao: `linear-gradient(to bottom, white, white, white)`,
-        bgCardIcon: `invert(100%) sepia(100%) saturate(100%) hue-rotate(100deg) brightness(100%) contrast(100%)`,
+        bgCardIcon: `invert(1)`,
       };
 
       const transformKey = (key) => {
