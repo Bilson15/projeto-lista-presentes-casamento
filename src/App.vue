@@ -75,6 +75,28 @@
 
     <div class="conjunto-pre-cat">
       <div class="categoria">
+        <h4 id="utensilios">Utensílios Domésticos</h4>
+      </div>
+      <Load v-if="loading" />
+      <div
+        v-else
+        class="card-presente"
+        v-bind:key="presente.id"
+        v-for="presente in presentes"
+      >
+        <div v-if="presente.categoria === 'utensilios'">
+          <CardPresente
+            :presente="presente.name"
+            :qtd="presente.qtd"
+            :categoria="presente.categoria"
+            :id="presente.id"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="conjunto-pre-cat">
+      <div class="categoria">
         <h4 id="salaquarto">Sala e Quarto</h4>
       </div>
       <Load v-if="loading" />
@@ -106,50 +128,6 @@
         v-for="presente in presentes"
       >
         <div v-if="presente.categoria === 'banheiro'">
-          <CardPresente
-            :presente="presente.name"
-            :qtd="presente.qtd"
-            :categoria="presente.categoria"
-            :id="presente.id"
-          />
-        </div>
-      </div>
-    </div>
-
-    <div class="conjunto-pre-cat">
-      <div class="categoria">
-        <h4 id="utensilios">Utensílios Domésticos</h4>
-      </div>
-      <Load v-if="loading" />
-      <div
-        v-else
-        class="card-presente"
-        v-bind:key="presente.id"
-        v-for="presente in presentes"
-      >
-        <div v-if="presente.categoria === 'utensilios'">
-          <CardPresente
-            :presente="presente.name"
-            :qtd="presente.qtd"
-            :categoria="presente.categoria"
-            :id="presente.id"
-          />
-        </div>
-      </div>
-    </div>
-
-    <div class="conjunto-pre-cat">
-      <div class="categoria">
-        <h4 id="premium">Premium</h4>
-      </div>
-      <Load v-if="loading" />
-      <div
-        v-else
-        class="card-presente"
-        v-bind:key="presente.id"
-        v-for="presente in presentes"
-      >
-        <div v-if="presente.categoria === 'premium'">
           <CardPresente
             :presente="presente.name"
             :qtd="presente.qtd"
@@ -268,6 +246,7 @@ html {
   );
   --bg-btn-card-premium: #292b2c;
   --bg-corpo-card-premium: linear-gradient(to bottom, #64686d, #64686d);
+  --bg-card-icon: black;
 }
 
 #canvas > p {

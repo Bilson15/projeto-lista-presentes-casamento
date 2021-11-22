@@ -20,10 +20,9 @@
           </a>
           <ul class="dropdown-menu dropmenu" aria-labelledby="navbarDropdown">
             <li><a v-on:click="navs" class="dropdown-item" href="#cozinha">Cozinha</a></li>
+            <li><a v-on:click="navs" class="dropdown-item" href="#utensilios">Utensílios Domésticos</a></li>
             <li><a v-on:click="navs" class="dropdown-item" href="#salaquarto">Sala e quarto</a></li>
             <li><a v-on:click="navs" class="dropdown-item" href="#banheiro">Banheiro</a></li>
-            <li><a v-on:click="navs" class="dropdown-item" href="#utensilios">Utensílios Domésticos</a></li>
-            <li><a v-on:click="navs" class="dropdown-item" href="#premium">Premium</a></li>
           </ul>
         </li>
       </ul>

@@ -157,6 +157,10 @@ export default {
         height: 35px;
     }
 
+    .icon-presente{
+        filter: var(--bg-card-icon);
+    }
+
 
     @media(max-width: 500px){
     .card {

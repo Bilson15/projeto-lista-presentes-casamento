@@ -54,6 +54,8 @@ export default {
         bgBotao: getStyle(html, "--bg-botao"),
         bgBtnCardPremium: getStyle(html, "--bg-btn-card-premium"),
         bgCorpoCardPremium: getStyle(html, "--bg-corpo-card-premium"),
+        bgCardIcon: getStyle(html,"--bg-card-icon"),
+        bgCardIconTop: getStyle(html, "--bg-card-icon-top"),
       };
 
       const noivoTheme = {
@@ -63,7 +65,8 @@ export default {
         bg: "hsl(223, 31%, 20%)",
         bgTitle: "white",
         bgFonte: "white",
-        bgBotao: `linear-gradient(to bottom, hsl(224, 36%, 15%), hsl(224, 36%, 15%), hsl(224, 36%, 15%))`,
+        bgBotao: `linear-gradient(to bottom, white, white, white)`,
+        bgCardIcon: `invert(100%) sepia(100%) saturate(100%) hue-rotate(100deg) brightness(100%) contrast(100%)`,
       };
 
       const transformKey = (key) => {
