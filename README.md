@@ -3,6 +3,8 @@
 Solução para dar praticidade ao convite virtual, facilidade de sugestão e escolha de um presente para o casal.
 Projeto onde me trouxe desafios e grandes aprendizados.
 
+Projeto hospedado: https://presentesgabrieldalila.netlify.app/
+
 <h1 align="center">App</h1> 
 <div align="center">
   <h4 align="center">Layout Desktop</h4> 
