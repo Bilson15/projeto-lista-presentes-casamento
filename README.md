@@ -6,7 +6,7 @@ Projeto onde me trouxe desafios e grandes aprendizados.
 <h1 align="center">App</h1> 
 <div align="center">
   <h4 align="center">Layout Desktop</h4> 
-  <img src="./assets_git/desktop.jpg" alt="Desktop" heigth="700" width="450" title="desktop"></img><br>
+  <img src="./assets_git/desktop.png" alt="Desktop" heigth="700" width="450" title="desktop"></img><br>
   <h4 align="center">Layout Mobile</h4> 
   <img src="./assets_git/1647443397930.jpg" alt="Mobile" heigth="700" width="450" title="mobile"></img><br>
 </div>
