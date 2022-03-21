@@ -16,11 +16,11 @@ Projeto hospedado: https://presentesgabrieldalila.netlify.app/
 <h2>Tecnologias Utilizadas</h2>
 
 <ul>
-  <li><a target="_blank" href="https://vuejs.org/">Vue.js</a></li>
-  <li><a target="_blank" href="https://getbootstrap.com/">Bootstrap</a></li>
-  <li><a target="_blank" href="https://mockapi.io/">MockApi</a></li>
-  <li><a target="_blank" href="https://sweetalert2.github.io/">Sweetalert2</a></li>
-  <li><a target="_blank" href="https://www.netlify.com/">Netlify</a></li>
+  <li><a href="https://vuejs.org/" target="_blank">Vue.js</a></li>
+  <li><a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></li>
+  <li><a href="https://mockapi.io/" target="_blank">MockApi</a></li>
+  <li><a href="https://sweetalert2.github.io/" target="_blank">Sweetalert2</a></li>
+  <li><a href="https://www.netlify.com/" target="_blank">Netlify</a></li>
 </ul>
   
 
