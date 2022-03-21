@@ -15,14 +15,14 @@ Projeto hospedado: https://presentesgabrieldalila.netlify.app/
 
 <h2>Tecnologias Utilizadas</h2>
 
-* FrameWork Vue
-* HTML
-* JavaScript
-* CSS / Bootstrap
-* MockApi
-* Sweetalert2
-* Netlify
-
+<ul>
+  <li><a href="https://vuejs.org/">Vue.js</a></li>
+  <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+  <li><a href="https://mockapi.io/">MockApi</a></li>
+  <li><a href="https://sweetalert2.github.io/">Sweetalert2</a></li>
+  <li><a href="https://www.netlify.com/">Netlify</a></li>
+</ul>
+  
 
 ## Project setup
 ```
